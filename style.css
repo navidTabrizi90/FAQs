@@ -72,18 +72,22 @@ body {
 .question-answer--container {
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 24px;
 
 }
 
 
-.question {
+.faq-question {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .question--title {
+
     font-size: 18px;
+    font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
@@ -99,8 +103,17 @@ body {
     font-weight: 400;
     line-height: 150%;
     color: var(--GrayishPurple);
-    padding-bottom: 24px;
 
+
+}
+
+.faq-answer {
+    padding-bottom: 24px;
+    display: none;
+}
+
+.active {
+    display: block;
 }
 
 button {
