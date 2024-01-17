@@ -3,6 +3,7 @@
     --LightPink: hsl(275, 100%, 97%);
     --GrayishPurple: hsl(292, 16%, 49%);
     --DarkPurple: hsl(292, 42%, 14%);
+    --Pink: #AD28EB;
 }
 
 * {
@@ -79,14 +80,17 @@ body {
 .question {
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .question--title {
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
+}
+
+.question--title:hover {
+    color: var(--Pink);
+    cursor: pointer;
 }
 
 .answer {
@@ -97,4 +101,13 @@ body {
     color: var(--GrayishPurple);
     padding-bottom: 24px;
 
+}
+
+button {
+    text-decoration: none;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
 }
