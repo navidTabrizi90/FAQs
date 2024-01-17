@@ -1,0 +1,40 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --LightPink: hsl(275, 100%, 97%);
+    --GrayishPurple: hsl(292, 16%, 49%);
+    --DarkPurple: hsl(292, 42%, 14%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: var(--LightPink);
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-image: url(assets/images/background-pattern-desktop.svg);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 40px;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 16px;
+    background: var(--White);
+    box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
+}
