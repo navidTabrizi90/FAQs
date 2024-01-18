@@ -143,9 +143,9 @@ button {
     }
 
     .card {
-        max-width: calc(375px - 48px);
-        width: 100%;
+        width: calc(375px - 48px);
         border-radius: 8px;
+        padding: 24px;
     }
 
     .image--title {
