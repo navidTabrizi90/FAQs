@@ -58,7 +58,7 @@ body {
     gap: 24px;
 }
 
-.title--image {
+.image--title {
     width: 40px;
     height: 40px;
 }
@@ -76,6 +76,7 @@ body {
     gap: 24px;
 
 }
+
 .faq {
     display: flex;
     flex-direction: column;
@@ -153,7 +154,7 @@ button {
         box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.10);
     }
 
-    .title--image {
+    .image--title {
         width: 24px;
         height: 24px;
     }
