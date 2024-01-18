@@ -55,6 +55,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 24px;
 }
 
 .title--image {
@@ -63,7 +64,6 @@ body {
 }
 
 .title {
-    font-family: Work Sans;
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -76,7 +76,11 @@ body {
     gap: 24px;
 
 }
-
+.faq {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 
 .faq-question {
     display: flex;
@@ -140,15 +144,24 @@ button {
     .card {
         display: flex;
         width: calc(375px - 48px);
-        padding: 40px;
         flex-direction: column;
         align-items: flex-start;
         top: -160px;
-        gap: 32px;
-        border-radius: 16px;
+        gap: 24px;
+        border-radius: 8px;
         background: var(--White);
         box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.10);
     }
+
+    .title--image {
+        width: 24px;
+        height: 24px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
 
     .question--title {
 
