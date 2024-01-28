@@ -121,7 +121,7 @@ body {
     display: block;
 }
 
-button {
+.faq-toggle {
     text-decoration: none;
     outline: none;
     border-radius: 50%;
